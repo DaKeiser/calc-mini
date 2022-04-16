@@ -16,16 +16,29 @@ pip install pipenv
 pipenv run build
 ```
 
-## Run the app
+## Run the server
 
 ```sh
 pipenv run start
+```
+
+## Connect to server
+
+```sh
+nc <server_ip> 6969
 ```
 
 ## Run Tests
 
 ```sh
 pipenv run test
+```
+
+## Docker Development
+
+```sh
+docker build -t keiserdocker:calc_pip:latest .
+docker run -p "6969:6969" -it keiserdocker:calc_pip:latest
 ```
 
 ## Pipeline
