@@ -24,6 +24,10 @@ class Server():
             sys.exit()
 
         soc.listen(10)
+        print('-'*50)
+        print("Welcome to the Mini-Calculator server")
+        print("Connect here using the command `nc server_ip 6969`")
+        print('-'*50)
         print('Socket now listening')
 
         while True:
