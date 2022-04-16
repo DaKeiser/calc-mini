@@ -12,5 +12,5 @@ python_version = "3.9"
 
 [scripts]
 build = "pipenv install"
-server = "python run.py"
+start = "python run.py"
 test = "python -m unittest test"
