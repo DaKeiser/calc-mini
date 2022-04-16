@@ -60,7 +60,7 @@ jobs:
       id: build_push
       with:
           push: true
-          tags: keiserdocker/calculator-spemini:latest
+          tags: keiserdocker/minicalc:latest
           
     - name: Image Digest
       run: echo ${{ steps.build_push.outputs.imageid }}

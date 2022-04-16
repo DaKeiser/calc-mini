@@ -43,6 +43,6 @@ docker run -p "6969:6969" -it keiserdocker:calc_pip:latest
 
 ## Pipeline
 
-Find the docker image on https://hub.docker.com/r/keiserdocker/calc-mini
+Find the docker image on https://hub.docker.com/r/keiserdocker/minicalc
 
 ## References
