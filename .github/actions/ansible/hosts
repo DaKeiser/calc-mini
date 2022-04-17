@@ -5,4 +5,4 @@
 ansible_connection=ssh
 ansible_user=rithwik
 ansible_ssh_user=rithwik
-ansible_python_interpreter=/usr/bin/python3.8
+ansible_python_interpreter=/usr/bin/python3.6
