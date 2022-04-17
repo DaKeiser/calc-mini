@@ -53,7 +53,7 @@ Please try again{os.linesep}\
             guess = int(n.decode("utf8").rstrip())
             return guess
         except ValueError:
-            conn.sendall(f"{bcolors.FAIL}That's not an int!\n".encode())
+            conn.sendall(f"\n{bcolors.FAIL}That's not an int!\n".encode())
             conn.sendall(b"________________________________________\n\n")
             return -1
 
@@ -134,7 +134,7 @@ Please try again{os.linesep}\
                         inp_n2 = conn.recv(1024)
                         n1 = self.integer_check(conn, inp_n1)
                         n2 = self.integer_check(conn, inp_n2)
-                        if func_op != -1 and n1 != -1 and n2 != -1:
+                        if func_op != -1:
                             ans = self.calc.power(n1, n2)
                             conn.sendall(f"\n{bcolors.OKGREEN}OUTPUT: ".encode() + str(ans).encode())
                         else:
