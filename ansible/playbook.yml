@@ -4,13 +4,13 @@
 
   tasks:
     - name: Stop Container
-      shell: docker stop calculator
+      shell: docker stop minical
 
     - name: Remove Container
-      shell: docker rm -f calculator
+      shell: docker rm -f minical
 
     - name: Delete Image
-      shell: docker image rm -f keiserdocker/calculator-spemini:latest
+      shell: docker image rm -f keiserdocker/minicalc:latest
 
     - name: Run the new image
-      shell: docker run -d -p 80:80 --name calculator keiserdocker/calculator-spemini:latest
+      shell: docker run -d -p 6969:6969 --name minical keiserdocker/minicalc:latest -it
