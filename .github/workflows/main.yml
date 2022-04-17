@@ -75,4 +75,4 @@ jobs:
 
     - uses: ./.github/actions/ansible
       env:
-        SSH_PASSWORD: ${{ secrets.ANSIBLE_SSH_PASSWORD }}
+        SSH_PASS: ${{ secrets.ANSIBLE_SSH_PASSWORD }}
