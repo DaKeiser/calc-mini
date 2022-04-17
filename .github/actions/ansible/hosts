@@ -1,0 +1,8 @@
+[azure]
+40.81.233.44
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=rithwik
+ansible_ssh_user=rithwik 
+ansible_python_interpreter=/usr/bin/python3.6
