@@ -5,9 +5,15 @@
 ## Install
 
 ```sh
-git clone git@github.com:DaKeiser/mini-calc.git
-cd mini-calc
+git clone git@github.com:DaKeiser/calc-mini.git
+cd calc-mini
 pip install pipenv
+```
+
+## Demo
+
+```sh
+nc 40.81.233.44 6969
 ```
 
 ## Build Code

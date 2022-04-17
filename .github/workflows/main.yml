@@ -62,7 +62,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/minicalc:latest
           
-    - name: Image Digest
+    - name: Image ID
       run: echo ${{ steps.build_push.outputs.imageid }}
 
   deploy:
