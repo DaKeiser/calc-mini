@@ -8,6 +8,7 @@ import sys
 import logging
 
 class Server():
+    # Initialises the code
     def __init__(self):
         logging.basicConfig(level=logging.NOTSET,
                     filename="calc.log",
