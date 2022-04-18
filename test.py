@@ -11,35 +11,35 @@ class SquareRootTests(unittest.TestCase):
     def tearDown(self):
         logging.disable(logging.NOTSET)
 
-    def test_sqrt_(self):
+    def test_sqrt_7(self):
         # print("Check the sqrt with 0")
         self.assertEqual(self.calc.squrt(0), 0)
 
-    def test_sqrt_(self):
+    def test_sqrt_0(self):
         # print("Check the sqrt")
         self.assertEqual(self.calc.squrt(1), 1)
 
-    def test_sqrt_(self):
+    def test_sqrt_1(self):
         # print("Check the sqrt")
         self.assertEqual(self.calc.squrt(2), 1.4142135623730951)
 
-    def test_sqrt_(self):
+    def test_sqrt_2(self):
         # print("Check the sqrt")
         self.assertEqual(self.calc.squrt(4), 2)
 
-    def test_sqrt_(self):
+    def test_sqrt_3(self):
         # print("Check the sqrt")
         self.assertEqual(self.calc.squrt(10), 3.1622776601683795)
 
-    def test_sqrt_(self):
+    def test_sqrt_4(self):
         # print("Check the sqrt")
         self.assertEqual(self.calc.squrt(-10), "Undefined")
 
-    def test_sqrt_(self):
+    def test_sqrt_5(self):
         # print("[TRUE NEGATIVE] Check the sqrt")
         self.assertNotEqual(self.calc.squrt(10), -1)
 
-    def test_sqrt_(self):
+    def test_sqrt_6(self):
         # print("[DECIMAL]Check the sqrt")
         self.assertEqual(self.calc.squrt(7.1), 2.6645825188948455)
 
