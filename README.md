@@ -51,4 +51,8 @@ docker run -p "6969:6969" -it keiserdocker:calc_pip:latest
 
 Find the docker image on https://hub.docker.com/r/keiserdocker/minicalc
 
-## References
+## App Demo
+
+Demo video with simultaneous 2 client setup
+
+<a href="https://asciinema.org/a/ZUSgiPsAlateIn7KEEBPRbjxn" target="_blank"><img src="https://asciinema.org/a/ZUSgiPsAlateIn7KEEBPRbjxn.svg" /></a>
